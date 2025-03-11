@@ -5,7 +5,7 @@ x=0;
 bestfitnesshist=zeros(1,200);
 while true
     x=x+1;
-    oldfit=hodnota_deathPenalty(pop);
+    oldfit=postupna_penalta(pop);
     [Newpop,Newfit]=selbest(pop,oldfit,[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]);%20
     if x>200
         break;
