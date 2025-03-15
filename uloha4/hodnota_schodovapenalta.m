@@ -1,4 +1,4 @@
-function[Fit]=hodnota_deathPenalty(Pop)
+function[Fit]=hodnota_schodovapenalta(Pop)
  
 
 [lpop,lstring]=size(Pop);
